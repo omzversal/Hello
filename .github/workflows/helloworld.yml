@@ -8,4 +8,4 @@ jobs :
     steps: 
       - uses: actions/checkout@v5
       - name : Run on one line script
-        run : echo hello from octo organization 
+        run : echo hello from zversal 
