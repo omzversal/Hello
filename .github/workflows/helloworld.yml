@@ -6,6 +6,6 @@ jobs :
   build : 
     run on : ubuntu-latest
     steps: 
-      - uses: actions
+      - uses: actions/checkout@v5
       - name : Run on one line script
         run : echo hello from octo organization 
